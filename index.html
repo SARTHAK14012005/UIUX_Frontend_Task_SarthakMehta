@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DroneTV - Explore drone technology, AI, GIS and training.">
+
+  <meta name="description"
+    content="DroneTV - Explore drone technology, AI, GIS and training.">
+
   <title>DroneTV | Aerial Intelligence Hub</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- ================= NAVBAR ================= -->
+
   <header class="navbar">
+
     <a href="#" class="logo" onclick="showPage('home')">
       <span>DRONE</span><b>TV</b>
     </a>
@@ -24,36 +31,70 @@
     </nav>
 
     <div class="nav-actions">
-      <button class="login-link" onclick="showPage('login')">Login</button>
-      <button class="primary-btn small-btn" onclick="showPage('courses')">
+
+      <button class="login-link" onclick="showPage('login')">
+        Login
+      </button>
+
+      <button class="primary-btn small-btn"
+        onclick="showPage('courses')">
         Join Ecosystem
       </button>
+
     </div>
 
-    <button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">
+    <button class="menu-btn"
+      onclick="toggleMenu()"
+      aria-label="Open menu">
       ☰
     </button>
+
   </header>
 
-  <!-- MOBILE MENU -->
+
+  <!-- ================= MOBILE MENU ================= -->
+
   <div id="mobileMenu" class="mobile-menu">
-    <a href="#" onclick="showPage('home'); toggleMenu()">Explore</a>
-    <a href="#" onclick="showPage('services'); toggleMenu()">Services</a>
-    <a href="#" onclick="showPage('courses'); toggleMenu()">Training</a>
-    <a href="#insights" onclick="toggleMenu()">Insights</a>
-    <a href="#" onclick="showPage('login'); toggleMenu()">Login</a>
+
+    <a href="#" onclick="showPage('home'); toggleMenu()">
+      Explore
+    </a>
+
+    <a href="#" onclick="showPage('services'); toggleMenu()">
+      Services
+    </a>
+
+    <a href="#" onclick="showPage('courses'); toggleMenu()">
+      Training
+    </a>
+
+    <a href="#insights" onclick="toggleMenu()">
+      Insights
+    </a>
+
+    <a href="#" onclick="showPage('login'); toggleMenu()">
+      Login
+    </a>
+
   </div>
+
 
 
   <!-- =====================================================
        HOME
   ====================================================== -->
+
   <main id="home" class="page active">
 
     <!-- HERO -->
+
     <section class="hero">
+
       <div class="hero-content">
-        <div class="eyebrow">● AERIAL INTELLIGENCE PLATFORM</div>
+
+        <div class="eyebrow">
+          ● AERIAL INTELLIGENCE PLATFORM
+        </div>
 
         <h1>
           THE FUTURE<br>
@@ -66,29 +107,43 @@
         </p>
 
         <div class="hero-buttons">
-          <button class="primary-btn" onclick="showPage('services')">
+
+          <button class="primary-btn"
+            onclick="showPage('services')">
             Explore Drone World →
           </button>
 
-          <button class="secondary-btn" onclick="scrollToSection('featured')">
+          <button class="secondary-btn"
+            onclick="scrollToSection('featured')">
             ▶ Watch Latest
           </button>
+
         </div>
+
       </div>
 
+
       <div class="hero-visual">
+
         <div class="drone-image">
+
           <div class="image-label">
             <span>LIVE</span>
             AERIAL INTELLIGENCE
           </div>
+
         </div>
+
       </div>
+
     </section>
 
 
+
     <!-- STATS -->
+
     <section class="stats-section">
+
       <div class="stat">
         <strong>150<span>+</span></strong>
         <small>Drone Videos</small>
@@ -108,77 +163,138 @@
         <strong>10K<span>+</span></strong>
         <small>Community</small>
       </div>
+
     </section>
 
 
+
     <!-- ECOSYSTEM -->
+
     <section class="section">
+
       <div class="section-heading">
+
         <div>
-          <span class="section-label">THE ECOSYSTEM</span>
-          <h2>Everything taking flight.</h2>
+
+          <span class="section-label">
+            THE ECOSYSTEM
+          </span>
+
+          <h2>
+            Everything taking flight.
+          </h2>
+
         </div>
 
         <p>
           Explore the technologies, companies and people
           shaping the aerial economy.
         </p>
+
       </div>
+
 
       <div class="card-grid four">
 
         <article class="feature-card">
+
           <div class="card-icon">◈</div>
-          <h3>Drone Technology</h3>
+
+          <h3>
+            Drone Technology
+          </h3>
+
           <p>
             Explore aircraft, components and breakthrough
             aerial technologies.
           </p>
-          <a href="#" onclick="showPage('services')">Explore →</a>
+
+          <a href="#" onclick="showPage('services')">
+            Explore →
+          </a>
+
         </article>
 
+
         <article class="feature-card">
+
           <div class="card-icon">◎</div>
-          <h3>AI & GIS</h3>
+
+          <h3>
+            AI & GIS
+          </h3>
+
           <p>
             Discover intelligent mapping, computer vision
             and geospatial innovation.
           </p>
-          <a href="#" onclick="showPage('services')">Discover →</a>
+
+          <a href="#" onclick="showPage('services')">
+            Discover →
+          </a>
+
         </article>
 
+
         <article class="feature-card">
+
           <div class="card-icon">▣</div>
-          <h3>Industry Stories</h3>
+
+          <h3>
+            Industry Stories
+          </h3>
+
           <p>
             Get insights from companies, innovators and
             industry leaders.
           </p>
-          <a href="#featured">Read stories →</a>
+
+          <a href="#featured">
+            Read stories →
+          </a>
+
         </article>
 
+
         <article class="feature-card">
+
           <div class="card-icon">✦</div>
-          <h3>Events & Community</h3>
+
+          <h3>
+            Events & Community
+          </h3>
+
           <p>
             Connect with professionals, events and the
             wider drone ecosystem.
           </p>
-          <a href="#insights">Connect →</a>
+
+          <a href="#insights">
+            Connect →
+          </a>
+
         </article>
 
       </div>
+
     </section>
 
 
+
     <!-- FEATURED STORY -->
-    <section id="featured" class="featured-section section">
+
+    <section id="featured"
+      class="featured-section section">
+
       <div class="featured-image">
         <span>FEATURED STORY</span>
       </div>
 
       <div class="featured-content">
-        <span class="section-label">LATEST INSIGHT</span>
+
+        <span class="section-label">
+          LATEST INSIGHT
+        </span>
 
         <h2>
           From the sky to the screen:
@@ -191,98 +307,280 @@
           see and understand the world.
         </p>
 
-        <button class="text-btn">Read Full Story →</button>
+        <button class="text-btn">
+          Read Full Story →
+        </button>
+
       </div>
+
     </section>
 
 
+
     <!-- TRAINING -->
+
     <section class="section training-section">
+
       <div class="section-heading">
+
         <div>
-          <span class="section-label">LEARN & GROW</span>
-          <h2>Build your future in the sky.</h2>
+
+          <span class="section-label">
+            LEARN & GROW
+          </span>
+
+          <h2>
+            Build your future in the sky.
+          </h2>
+
         </div>
 
-        <button class="secondary-btn" onclick="showPage('courses')">
+        <button class="secondary-btn"
+          onclick="showPage('courses')">
           View All Courses →
         </button>
+
       </div>
+
 
       <div class="card-grid three">
 
         <article class="course-card">
+
           <div class="course-image drone-course">
             <span>DRONE</span>
           </div>
+
           <div class="course-body">
-            <span class="tag">DRONE</span>
-            <h3>Drone Technology Fundamentals</h3>
-            <p>Build a strong foundation in modern drone systems.</p>
+
+            <span class="tag">
+              DRONE
+            </span>
+
+            <h3>
+              Drone Technology Fundamentals
+            </h3>
+
+            <p>
+              Build a strong foundation in modern drone systems.
+            </p>
+
             <div class="course-meta">
               <span>Beginner</span>
               <span>6 Modules</span>
             </div>
+
           </div>
+
         </article>
 
+
         <article class="course-card">
+
           <div class="course-image ai-course">
             <span>AI</span>
           </div>
+
           <div class="course-body">
-            <span class="tag">AI</span>
-            <h3>AI for Aerial Intelligence</h3>
-            <p>Understand how AI is transforming aerial data.</p>
+
+            <span class="tag">
+              AI
+            </span>
+
+            <h3>
+              AI for Aerial Intelligence
+            </h3>
+
+            <p>
+              Understand how AI is transforming aerial data.
+            </p>
+
             <div class="course-meta">
               <span>Intermediate</span>
               <span>8 Modules</span>
             </div>
+
           </div>
+
         </article>
 
+
         <article class="course-card">
+
           <div class="course-image gis-course">
             <span>GIS</span>
           </div>
+
           <div class="course-body">
-            <span class="tag">GIS</span>
-            <h3>GIS & Mapping Essentials</h3>
-            <p>Learn the fundamentals of digital mapping.</p>
+
+            <span class="tag">
+              GIS
+            </span>
+
+            <h3>
+              GIS & Mapping Essentials
+            </h3>
+
+            <p>
+              Learn the fundamentals of digital mapping.
+            </p>
+
             <div class="course-meta">
               <span>Beginner</span>
               <span>7 Modules</span>
             </div>
+
           </div>
+
         </article>
 
       </div>
+
     </section>
+
 
 
     <!-- FINAL CTA -->
+
     <section class="cta-section">
+
       <div>
-        <span class="section-label">JOIN THE MOVEMENT</span>
-        <h2>Ready to take your next step?</h2>
-        <p>Explore. Learn. Connect. Build the future.</p>
+
+        <span class="section-label">
+          JOIN THE MOVEMENT
+        </span>
+
+        <h2>
+          Ready to take your next step?
+        </h2>
+
+        <p>
+          Explore. Learn. Connect. Build the future.
+        </p>
+
       </div>
 
-      <button class="primary-btn" onclick="showPage('login')">
+      <button class="primary-btn"
+        onclick="showPage('login')">
         Join DroneTV →
       </button>
+
     </section>
 
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <!-- IMPORTANT:
+         FOOTER IS INSIDE HOME ONLY -->
+
+    <footer class="footer">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo"
+          onclick="showPage('home')">
+
+          <span>DRONE</span><b>TV</b>
+
+        </a>
+
+        <p>
+          Explore the future of drone technology,
+          GIS and artificial intelligence.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <div>
+
+          <strong>Explore</strong>
+
+          <a href="#"
+            onclick="showPage('services')">
+            Services
+          </a>
+
+          <a href="#"
+            onclick="showPage('courses')">
+            Training
+          </a>
+
+          <a href="#featured">
+            Insights
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <strong>Connect</strong>
+
+          <a href="#">
+            LinkedIn
+          </a>
+
+          <a href="#">
+            Instagram
+          </a>
+
+          <a href="#">
+            YouTube
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <strong>Contact</strong>
+
+          <a href="mailto:hello@dronetv.in">
+            hello@dronetv.in
+          </a>
+
+          <a href="#">
+            Delhi, India
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © 2026 DroneTV. UI/UX Internship Project.
+        </span>
+
+        <span>
+          Designed & Developed with HTML, CSS & JavaScript.
+        </span>
+
+      </div>
+
+    </footer>
+
   </main>
+
 
 
   <!-- =====================================================
        SERVICES
   ====================================================== -->
+
   <main id="services" class="page">
 
     <section class="inner-hero">
-      <span class="section-label">OUR SERVICES</span>
+
+      <span class="section-label">
+        OUR SERVICES
+      </span>
 
       <h1>
         Technology needs<br>
@@ -293,59 +591,107 @@
         We help companies, products and ideas become visible
         to the rapidly growing drone, GIS and AI ecosystem.
       </p>
+
     </section>
 
 
     <section class="section">
+
       <div class="card-grid four">
 
         <article class="service-card">
+
           <div class="service-number">01</div>
-          <h3>Company Visibility</h3>
+
+          <h3>
+            Company Visibility
+          </h3>
+
           <p>
             Showcase your company and connect with relevant
             industry professionals.
           </p>
-          <a href="#">Learn More →</a>
+
+          <a href="#">
+            Learn More →
+          </a>
+
         </article>
 
+
         <article class="service-card">
+
           <div class="service-number">02</div>
-          <h3>Product Showcase</h3>
+
+          <h3>
+            Product Showcase
+          </h3>
+
           <p>
             Give your technology a platform and reach an
             audience interested in innovation.
           </p>
-          <a href="#">Learn More →</a>
+
+          <a href="#">
+            Learn More →
+          </a>
+
         </article>
 
+
         <article class="service-card">
+
           <div class="service-number">03</div>
-          <h3>Industry Promotion</h3>
+
+          <h3>
+            Industry Promotion
+          </h3>
+
           <p>
             Create campaigns and content that communicate
             your industry story.
           </p>
-          <a href="#">Learn More →</a>
+
+          <a href="#">
+            Learn More →
+          </a>
+
         </article>
 
+
         <article class="service-card">
+
           <div class="service-number">04</div>
-          <h3>Events & Exhibitions</h3>
+
+          <h3>
+            Events & Exhibitions
+          </h3>
+
           <p>
             Connect brands and professionals through
             industry events and experiences.
           </p>
-          <a href="#">Learn More →</a>
+
+          <a href="#">
+            Learn More →
+          </a>
+
         </article>
 
       </div>
+
     </section>
 
 
     <section class="process-section section">
-      <span class="section-label">HOW IT WORKS</span>
-      <h2>From idea to impact.</h2>
+
+      <span class="section-label">
+        HOW IT WORKS
+      </span>
+
+      <h2>
+        From idea to impact.
+      </h2>
 
       <div class="process-grid">
 
@@ -380,30 +726,46 @@
         </div>
 
       </div>
+
     </section>
 
 
     <section class="cta-section">
+
       <div>
-        <span class="section-label">LET'S WORK TOGETHER</span>
-        <h2>Put your technology in the spotlight.</h2>
+
+        <span class="section-label">
+          LET'S WORK TOGETHER
+        </span>
+
+        <h2>
+          Put your technology in the spotlight.
+        </h2>
+
       </div>
 
-      <button class="primary-btn" onclick="showPage('login')">
+      <button class="primary-btn"
+        onclick="showPage('login')">
         Get Started →
       </button>
+
     </section>
 
   </main>
 
 
+
   <!-- =====================================================
        COURSES
   ====================================================== -->
+
   <main id="courses" class="page">
 
     <section class="inner-hero">
-      <span class="section-label">TRAINING & EDUCATION</span>
+
+      <span class="section-label">
+        TRAINING & EDUCATION
+      </span>
 
       <h1>
         Learn the technology<br>
@@ -414,41 +776,57 @@
         Develop practical knowledge across drone technology,
         GIS and artificial intelligence.
       </p>
+
     </section>
 
 
-    <!-- FILTERS -->
     <section class="section courses-area">
 
       <div class="filters">
-        <button class="filter active" onclick="filterCourses('all', this)">
+
+        <button class="filter active"
+          onclick="filterCourses('all', this)">
           All
         </button>
 
-        <button class="filter" onclick="filterCourses('drone', this)">
+        <button class="filter"
+          onclick="filterCourses('drone', this)">
           Drone
         </button>
 
-        <button class="filter" onclick="filterCourses('gis', this)">
+        <button class="filter"
+          onclick="filterCourses('gis', this)">
           GIS
         </button>
 
-        <button class="filter" onclick="filterCourses('ai', this)">
+        <button class="filter"
+          onclick="filterCourses('ai', this)">
           AI
         </button>
+
       </div>
 
 
       <div class="card-grid three course-list">
 
-        <article class="course-card course-item" data-category="drone">
+
+        <article class="course-card course-item"
+          data-category="drone">
+
           <div class="course-image drone-course">
             <span>DRONE</span>
           </div>
 
           <div class="course-body">
-            <span class="tag">DRONE</span>
-            <h3>Drone Technology Fundamentals</h3>
+
+            <span class="tag">
+              DRONE
+            </span>
+
+            <h3>
+              Drone Technology Fundamentals
+            </h3>
+
             <p>
               Understand aircraft, components, flight systems
               and aerial operations.
@@ -459,21 +837,34 @@
               <span>6 Modules</span>
             </div>
 
-            <button class="course-btn" onclick="showPage('login')">
+            <button class="course-btn"
+              onclick="showPage('login')">
               Start Learning
             </button>
+
           </div>
+
         </article>
 
 
-        <article class="course-card course-item" data-category="ai">
+
+        <article class="course-card course-item"
+          data-category="ai">
+
           <div class="course-image ai-course">
             <span>AI</span>
           </div>
 
           <div class="course-body">
-            <span class="tag">AI</span>
-            <h3>AI for Aerial Intelligence</h3>
+
+            <span class="tag">
+              AI
+            </span>
+
+            <h3>
+              AI for Aerial Intelligence
+            </h3>
+
             <p>
               Learn how artificial intelligence can analyse
               aerial imagery and data.
@@ -484,21 +875,34 @@
               <span>8 Modules</span>
             </div>
 
-            <button class="course-btn" onclick="showPage('login')">
+            <button class="course-btn"
+              onclick="showPage('login')">
               Start Learning
             </button>
+
           </div>
+
         </article>
 
 
-        <article class="course-card course-item" data-category="gis">
+
+        <article class="course-card course-item"
+          data-category="gis">
+
           <div class="course-image gis-course">
             <span>GIS</span>
           </div>
 
           <div class="course-body">
-            <span class="tag">GIS</span>
-            <h3>GIS & Mapping Essentials</h3>
+
+            <span class="tag">
+              GIS
+            </span>
+
+            <h3>
+              GIS & Mapping Essentials
+            </h3>
+
             <p>
               Explore digital maps, spatial data and
               geospatial technology.
@@ -509,39 +913,64 @@
               <span>7 Modules</span>
             </div>
 
-            <button class="course-btn" onclick="showPage('login')">
+            <button class="course-btn"
+              onclick="showPage('login')">
               Start Learning
             </button>
+
           </div>
+
         </article>
 
       </div>
+
     </section>
 
 
     <section class="cta-section">
+
       <div>
-        <span class="section-label">KEEP LEARNING</span>
-        <h2>Your next skill is waiting.</h2>
-        <p>Join the DroneTV learning ecosystem.</p>
+
+        <span class="section-label">
+          KEEP LEARNING
+        </span>
+
+        <h2>
+          Your next skill is waiting.
+        </h2>
+
+        <p>
+          Join the DroneTV learning ecosystem.
+        </p>
+
       </div>
 
-      <button class="primary-btn" onclick="showPage('login')">
+      <button class="primary-btn"
+        onclick="showPage('login')">
         Create Account →
       </button>
+
     </section>
 
   </main>
 
 
+
   <!-- =====================================================
        LOGIN
   ====================================================== -->
+
   <main id="login" class="page login-page">
 
+    <!-- LEFT SIDE IMAGE -->
+
     <div class="login-visual">
+
       <div class="login-overlay">
-        <span class="section-label">WELCOME TO DRONETV</span>
+
+        <span class="section-label">
+          WELCOME TO DRONETV
+        </span>
 
         <h1>
           Your gateway<br>
@@ -552,21 +981,33 @@
           Access learning, industry insights and the
           growing aerial technology ecosystem.
         </p>
+
       </div>
+
     </div>
 
+
+    <!-- RIGHT SIDE FORM -->
 
     <div class="login-form-area">
 
       <div class="login-form">
 
-        <a href="#" class="logo login-logo" onclick="showPage('home')">
+        <a href="#"
+          class="logo login-logo"
+          onclick="showPage('home')">
+
           <span>DRONE</span><b>TV</b>
+
         </a>
 
-        <span class="section-label">MEMBER ACCESS</span>
+        <span class="section-label">
+          MEMBER ACCESS
+        </span>
 
-        <h2>Welcome back.</h2>
+        <h2>
+          Welcome back.
+        </h2>
 
         <p class="form-subtitle">
           Sign in to continue your journey.
@@ -575,7 +1016,10 @@
 
         <form onsubmit="loginUser(event)">
 
-          <label for="email">Email address</label>
+          <label for="email">
+            Email address
+          </label>
+
           <input
             id="email"
             type="email"
@@ -583,9 +1027,13 @@
             required
           >
 
-          <label for="password">Password</label>
+
+          <label for="password">
+            Password
+          </label>
 
           <div class="password-wrapper">
+
             <input
               id="password"
               type="password"
@@ -593,29 +1041,52 @@
               required
             >
 
-            <button type="button" onclick="togglePassword()">
+            <button
+              type="button"
+              onclick="togglePassword()">
               Show
             </button>
+
           </div>
+
 
           <div class="form-options">
+
             <label class="remember">
+
               <input type="checkbox">
+
               Remember me
+
             </label>
 
-            <a href="#">Forgot password?</a>
+            <a href="#">
+              Forgot password?
+            </a>
+
           </div>
 
-          <button class="primary-btn full-btn" type="submit">
+
+          <button
+            class="primary-btn full-btn"
+            type="submit">
+
             Sign In →
+
           </button>
 
         </form>
 
+
         <p class="signup-text">
+
           Don't have an account?
-          <a href="#" onclick="showPage('courses')">Explore courses</a>
+
+          <a href="#"
+            onclick="showPage('courses')">
+            Explore courses
+          </a>
+
         </p>
 
       </div>
@@ -625,10 +1096,14 @@
   </main>
 
 
+
   <!-- =====================================================
        DASHBOARD
   ====================================================== -->
-  <main id="dashboard" class="page dashboard-page">
+
+  <main id="dashboard"
+    class="page dashboard-page">
+
 
     <aside class="sidebar">
 
@@ -636,39 +1111,49 @@
         <span>DRONE</span><b>TV</b>
       </div>
 
+
       <nav class="sidebar-nav">
 
         <a class="sidebar-link active">
-          <span>⌂</span> Overview
+          <span>⌂</span>
+          Overview
         </a>
 
         <a class="sidebar-link">
-          <span>▣</span> My Learning
+          <span>▣</span>
+          My Learning
         </a>
 
         <a class="sidebar-link">
-          <span>♡</span> Saved Content
+          <span>♡</span>
+          Saved Content
         </a>
 
         <a class="sidebar-link">
-          <span>◷</span> Events
+          <span>◷</span>
+          Events
         </a>
 
         <a class="sidebar-link">
-          <span>○</span> Profile
+          <span>○</span>
+          Profile
         </a>
 
         <a class="sidebar-link">
-          <span>⚙</span> Settings
+          <span>⚙</span>
+          Settings
         </a>
 
       </nav>
 
-      <button class="logout-btn" onclick="showPage('home')">
+
+      <button class="logout-btn"
+        onclick="logoutUser()">
         ← Logout
       </button>
 
     </aside>
+
 
 
     <section class="dashboard-content">
@@ -676,69 +1161,143 @@
       <div class="dashboard-top">
 
         <div>
-          <span class="section-label">MEMBER DASHBOARD</span>
-          <h1>Welcome back, Alex.</h1>
-          <p>Continue building your future in the aerial ecosystem.</p>
+
+          <span class="section-label">
+            MEMBER DASHBOARD
+          </span>
+
+          <h1>
+            Welcome back, Alex.
+          </h1>
+
+          <p>
+            Continue building your future in the aerial ecosystem.
+          </p>
+
         </div>
 
-        <div class="avatar">A</div>
+        <div class="avatar">
+          A
+        </div>
 
       </div>
+
 
 
       <!-- DASHBOARD STATS -->
+
       <div class="dashboard-stats">
 
         <div class="dashboard-stat">
-          <span>COURSES ENROLLED</span>
+
+          <span>
+            COURSES ENROLLED
+          </span>
+
           <strong>04</strong>
-          <small>Keep learning →</small>
+
+          <small>
+            Keep learning →
+          </small>
+
         </div>
 
+
         <div class="dashboard-stat">
-          <span>COURSES COMPLETED</span>
+
+          <span>
+            COURSES COMPLETED
+          </span>
+
           <strong>02</strong>
-          <small>Great progress</small>
+
+          <small>
+            Great progress
+          </small>
+
         </div>
 
+
         <div class="dashboard-stat">
-          <span>SAVED CONTENT</span>
+
+          <span>
+            SAVED CONTENT
+          </span>
+
           <strong>08</strong>
-          <small>View saved →</small>
+
+          <small>
+            View saved →
+          </small>
+
         </div>
 
       </div>
 
 
+
       <!-- CONTINUE LEARNING -->
+
       <section class="dashboard-section">
 
         <div class="dashboard-heading">
+
           <div>
-            <span class="section-label">CONTINUE LEARNING</span>
-            <h2>Pick up where you left off.</h2>
+
+            <span class="section-label">
+              CONTINUE LEARNING
+            </span>
+
+            <h2>
+              Pick up where you left off.
+            </h2>
+
           </div>
 
-          <span class="progress-text">68% complete</span>
+          <span class="progress-text">
+            68% complete
+          </span>
+
         </div>
 
 
         <div class="learning-card">
 
-          <div class="learning-icon">DRONE</div>
-
-          <div class="learning-info">
-            <span class="tag">DRONE TECHNOLOGY</span>
-            <h3>Drone Technology Fundamentals</h3>
-            <p>Module 4 of 6 · Flight Systems</p>
-
-            <div class="progress-bar">
-              <div class="progress"></div>
-            </div>
+          <div class="learning-icon">
+            DRONE
           </div>
 
-          <button class="primary-btn" onclick="alert('Course opened!')">
+
+          <div class="learning-info">
+
+            <span class="tag">
+              DRONE TECHNOLOGY
+            </span>
+
+            <h3>
+              Drone Technology Fundamentals
+            </h3>
+
+            <p>
+              Module 4 of 6 · Flight Systems
+            </p>
+
+
+            <div class="progress-bar">
+
+              <div class="progress"></div>
+
+            </div>
+
+          </div>
+
+
+          <button
+            class="primary-btn"
+            onclick="alert('Course opened!')">
+
             Continue →
+
           </button>
 
         </div>
@@ -746,48 +1305,112 @@
       </section>
 
 
+
       <!-- RECOMMENDED -->
-      <section class="dashboard-section" id="insights">
+
+      <section
+        class="dashboard-section"
+        id="insights">
 
         <div class="dashboard-heading">
+
           <div>
-            <span class="section-label">RECOMMENDED</span>
-            <h2>For your learning journey.</h2>
+
+            <span class="section-label">
+              RECOMMENDED
+            </span>
+
+            <h2>
+              For your learning journey.
+            </h2>
+
           </div>
+
         </div>
 
 
         <div class="card-grid three">
 
-          <article class="mini-card">
-            <span class="mini-icon">AI</span>
-            <span class="tag">AI</span>
-            <h3>AI for Aerial Intelligence</h3>
-            <p>8 modules · Intermediate</p>
-            <a href="#" onclick="showPage('courses')">
-              Explore →
-            </a>
-          </article>
 
           <article class="mini-card">
-            <span class="mini-icon">GIS</span>
-            <span class="tag">GIS</span>
-            <h3>GIS & Mapping Essentials</h3>
-            <p>7 modules · Beginner</p>
-            <a href="#" onclick="showPage('courses')">
+
+            <span class="mini-icon">
+              AI
+            </span>
+
+            <span class="tag">
+              AI
+            </span>
+
+            <h3>
+              AI for Aerial Intelligence
+            </h3>
+
+            <p>
+              8 modules · Intermediate
+            </p>
+
+            <a href="#"
+              onclick="showPage('courses')">
               Explore →
             </a>
+
           </article>
 
+
+
           <article class="mini-card">
-            <span class="mini-icon">NEWS</span>
-            <span class="tag">INSIGHTS</span>
-            <h3>The Future of Drone Technology</h3>
-            <p>Industry story · 6 min read</p>
-            <a href="#" onclick="showPage('home')">
+
+            <span class="mini-icon">
+              GIS
+            </span>
+
+            <span class="tag">
+              GIS
+            </span>
+
+            <h3>
+              GIS & Mapping Essentials
+            </h3>
+
+            <p>
+              7 modules · Beginner
+            </p>
+
+            <a href="#"
+              onclick="showPage('courses')">
+              Explore →
+            </a>
+
+          </article>
+
+
+
+          <article class="mini-card">
+
+            <span class="mini-icon">
+              NEWS
+            </span>
+
+            <span class="tag">
+              INSIGHTS
+            </span>
+
+            <h3>
+              The Future of Drone Technology
+            </h3>
+
+            <p>
+              Industry story · 6 min read
+            </p>
+
+            <a href="#"
+              onclick="showPage('home')">
               Read →
             </a>
+
           </article>
+
 
         </div>
 
@@ -798,50 +1421,9 @@
   </main>
 
 
-  <!-- FOOTER -->
-  <footer class="footer">
-
-    <div class="footer-brand">
-      <a href="#" class="logo" onclick="showPage('home')">
-        <span>DRONE</span><b>TV</b>
-      </a>
-
-      <p>
-        Explore the future of drone technology,
-        GIS and artificial intelligence.
-      </p>
-    </div>
-
-    <div class="footer-links">
-      <div>
-        <strong>Explore</strong>
-        <a href="#" onclick="showPage('services')">Services</a>
-        <a href="#" onclick="showPage('courses')">Training</a>
-        <a href="#featured">Insights</a>
-      </div>
-
-      <div>
-        <strong>Connect</strong>
-        <a href="#">LinkedIn</a>
-        <a href="#">Instagram</a>
-        <a href="#">YouTube</a>
-      </div>
-
-      <div>
-        <strong>Contact</strong>
-        <a href="mailto:hello@dronetv.in">hello@dronetv.in</a>
-        <a href="#">Delhi, India</a>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2026 DroneTV. UI/UX Internship Project.</span>
-      <span>Designed & Developed with HTML, CSS & JavaScript.</span>
-    </div>
-
-  </footer>
-
 
   <script src="script.js"></script>
+
 </body>
+
 </html>
